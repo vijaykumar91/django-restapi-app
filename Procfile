@@ -1,2 +1,2 @@
 heroku ps:scale web=1
-web: gunicorn samplenote.wsgi:application --log-file -
+web: gunicorn python-rest-api-djago-rest-framework-master.wsgi:application --log-file -
